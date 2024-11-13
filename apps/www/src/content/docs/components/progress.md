@@ -44,6 +44,6 @@ import { Progress } from '@/components/ui/progress'
 </script>
 
 <template>
-  <Progress :model-value="33" />
+  <Progress :model-value="33" :max="50" />
 </template>
 ```
